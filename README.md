@@ -1,3 +1,3 @@
 # RDPSpekdewa
 
-remote dekstop code : www.remotedekstop.google.com/headless
+remote dekstop code : https://remotedesktop.google.com/headless
