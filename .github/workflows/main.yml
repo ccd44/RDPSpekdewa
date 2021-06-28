@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       authcode:
-        description: 'Enter CRD code'
+        description: 'Masukkan CRD code'
         required: true
       pincode:
-        description: 'Six digit Pin'
+        description: 'Enam digit Pin'
         required: true
   
 jobs:
