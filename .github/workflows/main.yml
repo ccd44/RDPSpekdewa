@@ -19,4 +19,8 @@ jobs:
     - name: Initializing Setup
       run: ./setup.ps1
     - name: Starting CRD
-      run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }} 
+      run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
+    _ name: Timeout
+      run: ./timeout.ps1
+
+
