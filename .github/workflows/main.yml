@@ -20,7 +20,7 @@ jobs:
       run: ./setup.ps1
     - name: Starting CRD
       run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
-    _ name: Timeout
+    - name: Timeout
       run: ./timeout.ps1
 
 
